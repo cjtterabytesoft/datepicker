@@ -1,0 +1,48 @@
+{
+    "name": "cjtterabytesoft/datepicker",
+    "description": "DatePicker TimePicker jQuery JavaScript Library. [Yii 3.0/Boostrap4]",
+    "keywords": ["yii3", "jquery", "widget", "datepicker", "timepicker"],
+    "homepage": "https://github.com/cjtterabytesoft/datepicker",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/cjtterabytesoft/datepicker/issues",
+        "source": "https://github.com/cjtterabytesoft/datepicker/widgets",
+        "forum":  "https://discuss.cjtterabyte.com"
+    },
+    "authors": [
+        {
+            "name": "Wilmer Arambula",
+            "email": "github@cjtterabyte.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.1.0",
+        "yiisoft/yii2": "~3.0@dev",
+        "yiisoft/yii2-bootstrap4": "2.0.x-dev",
+        "bower-asset/moment": "~2.22",
+        "bower-asset/tempusdominus-bootstrap-4": "~5.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "2.1.x-dev",
+        "yiisoft/yii2-gii": "2.1.x-dev",
+        "phpunit/phpunit": "~7.0.2"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"cjtterabytesoft\\widgets\\": "src"}
+    },
+    "autoload-dev": {
+        "psr-4": {"cjtterabytesoft\\widgets\\tests\\": "tests"}
+    },
+    "config": {
+        "process-timeout": 1800
+    }
+}
